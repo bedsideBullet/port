@@ -1,8 +1,7 @@
 :root {
-  --marquee-width: 80vw;
+  --marquee-width: 80vh;
   --marquee-height: 15vh;
-  --marquee-height: 15vh;
-  --marquee-elms-displayed: 5;
+  --marquee-elms-displayed: 3;
   --marquee-elm-width: calc(
     var(--marquee-width) / var(--marquee-elms-displayed)
   );
@@ -65,6 +64,7 @@ header a {
   list-style: none;
   display: flex;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .marquee-content li {
